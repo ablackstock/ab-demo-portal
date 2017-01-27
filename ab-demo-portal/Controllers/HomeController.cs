@@ -16,7 +16,7 @@ namespace ab_demo_portal.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            ViewBag.Timestamp = DateTime.UtcNow.ToString();
+            ViewBag.Timestamp = DateTime.Now.ToString();
             return View();
         }
 
